@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+body {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(53, 57, 75, 0.726),
+        rgba(48, 53, 70, 0.712)
+        ),
+    url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    height: 130vh;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    height: 20vh;
+    width: 90vw;
+    margin-left: 80px;
+    margin-top: 40px;
+    
+}
+
+nav .list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between ;
+    height: 100px;
+    width: 800px;
+    font-family:'Red Rose', serif;
+    color: #FFC233;
+    font-size: 25px;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.button-small {
+    background-color: #FF505F;
+    padding: 0.5em 1.5em;
+    border: #FF505F;
+   align-items: center;
+    color: #fff;
+    font-size: 30px;
+    font-family:'Red Rose', serif;
+    font-weight: 500;
+}
+
+
+
+h1 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 60vw;
+    margin-left: 400px;
+    margin-right: 600px;
+    color: #FFC233;
+    font-family: 'Dela Gothic One', serif;
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: 114px;
+ 
+}
+
+.button-large{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    background-color: #FF505F;
+    padding: 1.3em 2em;
+    border: #FF505F;
+    margin-left: 900px;
+    color: #fff;
+    font-size: 35px;
+    font-family:'Red Rose', serif;
+    font-weight: 500;
+}
+
+.bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 200px;
+    width: 90vw;
+    margin-right: 100px;
+    margin-top: 80px;
+}
